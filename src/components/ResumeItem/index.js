@@ -1,10 +1,10 @@
 import * as Styled from "./styles";
 
-const ResumeItem = () => {
+const ResumeItem = ({ title, icon, value }) => {
   return (
     <Styled.Container>
-      <Styled.Header>Money</Styled.Header>
-      <Styled.Total>1000</Styled.Total>
+      <Styled.Header>{title}</Styled.Header>
+      <Styled.Total>{value}</Styled.Total>
     </Styled.Container>
   );
 };
