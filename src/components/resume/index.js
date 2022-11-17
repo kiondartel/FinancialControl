@@ -10,9 +10,9 @@ import {
 const Resume = () => {
   return (
     <Styled.Container>
-      <ResumeItem title="entrada" Icon={FaRegArrowAltCircleUp} value="1000" />
-      <ResumeItem title="saida" Icon={FaRegArrowAltCircleDown} value="500" />
-      <ResumeItem title="total" Icon={FaDollarSign} value="500" />
+      <ResumeItem title="Entrada" Icon={FaRegArrowAltCircleUp} value="1000" />
+      <ResumeItem title="Saida" Icon={FaRegArrowAltCircleDown} value="500" />
+      <ResumeItem title="Total" Icon={FaDollarSign} value="500" />
     </Styled.Container>
   );
 };
